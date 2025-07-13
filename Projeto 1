@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Higor Moraes - Preparador Esportivo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #d62424;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      margin-top: 15px;
+      border: 3px solid white;
+      object-fit: cover;
+    }
+    nav {
+      background: #a61b1b;
+      text-align: center;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #d62424;
+      margin-bottom: 12px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background-color: #ffe5e5;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-left: 5px solid #d62424;
+    }
+    article {
+      background-color: #f4f4f4;
+      padding: 15px;
+      margin-top: 10px;
+      border-left: 5px solid #d62424;
+    }
+    aside {
+      background-color: #ffecec;
+      padding: 20px;
+      margin: 40px auto;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #d62424;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      header img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Higor Moraes</h1>
+    <p>“Disciplina e performance em cada treino.”</p>
+    <img src="avatar.jpeg" alt="Foto de Higor Moraes">
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre mim</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#extras">Extras</a>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p>Sou preparador físico e treinador com foco em desenvolvimento atlético e desempenho no futebol. Atuo pela HM Sports 10, buscando sempre unir ciência, prática e resultados no campo.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Treinamento físico e técnico no futebol</li>
+        <li>Avaliação de performance e análise tática</li>
+        <li>Periodização esportiva</li>
+        <li>Treinamento funcional e preventivo</li>
+        <li>Apresentações educativas e workshops</li>
+      </ul>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+
+      <article>
+        <h3>Programa de Treinamento HM Sports 10</h3>
+        <p>Desenvolvimento e aplicação de metodologias de treino para atletas de base e amadores com foco em performance e saúde.</p>
+      </article>
+
+      <article>
+        <h3>Palestra “Atividade Física e Postura Escolar”</h3>
+        <p>Apresentação educativa realizada em escolas para conscientizar estudantes sobre os benefícios da prática regular de exercícios físicos.</p>
+      </article>
+    </section>
+  </main>
+
+  <aside id="extras">
+    <h2>Informações Extras</h2>
+    <p><strong>Curiosidades:</strong> Apaixonado por futebol desde criança e sempre em busca de inovação no treinamento.</p>
+    <p><strong>Hobbies:</strong> Leitura, musculação, análise tática de jogos.</p>
+    <p><strong>Redes Sociais:</strong></p>
+    <ul>
+      <li><a href="https://instagram.com/hmsports10" target="_blank">Instagram</a></li>
+      <li><a href="https://linkedin.com/in/higormoraes" target="_blank">LinkedIn</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>Contato: higor.moraes@hotmail.com</p>
+    <p>©️ 2025 Higor Moraes. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
